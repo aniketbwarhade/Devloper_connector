@@ -2,6 +2,12 @@ const express = require('express');
 const connectDB= require('./config/db')
 const app = express();
 
+
+// init body parser to parse body in json format
+// init middelware
+app.use(express.json({extended:false}))
+
+
 // connect Database
 connectDB();
 app.get('/', (req, res) => {
