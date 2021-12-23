@@ -1,4 +1,5 @@
 {
     "mongoURI": "mongodb+srv://aniket02:aniket02@cluster0.gxvcx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubToken": "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"
 }
