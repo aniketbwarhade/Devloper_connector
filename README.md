@@ -2,10 +2,9 @@
 A small social network app that includes authentication, profiles and forum posts.
 
 
-# Quick Start 🚀
+## Steps to run the project:
 
-### Add a default.json file in config folder with the following
-
+1. Add a default.json file in config folder with the following
 ```json
 {
   "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
@@ -14,20 +13,19 @@ A small social network app that includes authentication, profiles and forum post
 }
 ```
 
-### Install server dependencies
+2. Install server dependencies
 
 ```bash
 npm install
 ```
 
-### Install client dependencies
+3. Install client dependencies
 
 ```bash
 cd client
 npm install
 ```
-
-### Run both Express & React from root
+4. Run both Express & React from root
 
 ```bash
 npm run dev
