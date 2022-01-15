@@ -4,7 +4,7 @@ A small social network app that includes authentication, profiles and forum post
 
 # Quick Start 🚀
 
-### Add a default.json file in config folder with the following
+### Steps to run the project:
 
 ```json
 {
