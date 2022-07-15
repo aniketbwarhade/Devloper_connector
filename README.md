@@ -8,8 +8,7 @@
 
 
 ## Purpose
-
-	DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. New Bees can easily interact with the experienced developers and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
+<p> DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. New Bees can easily interact with the experienced developers and they can tune their skills. Also, Developers can expose their sharing and teaching skills.</p>
 
 ## Steps to run the project:
 
@@ -77,9 +76,3 @@ Mongoose will be used with our MongoDB implementation, it is an Object Data Mode
 DevConnector is a single page application (SPA) that utilises the dashboard component as the main wrapper element for rendering various view layers.
 
 Unauthenticated users can ONLY use the dashboard to view the developers profile. All other application features sit behind protected routes, and attempting to access them will push the browser navigation to the authentication component view.
-
-
-
-
-
-
