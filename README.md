@@ -1,6 +1,6 @@
 # DevConnector MERN APP
 
-# A Social Platform for developers to communicate through posts
+## A Social Platform for developers to communicate through posts
 
 ## Deployed Website
 
@@ -21,13 +21,11 @@
   "githubToken": "<yoursecrectaccesstoken>"
 }
 ```
-
 2. Install server dependencies
 
 ```bash
 npm install
 ```
-
 3. Install client dependencies
 
 ```bash
@@ -39,14 +37,11 @@ npm install
 ```bash
 npm run dev
 ```
-
-
 #### User authentication/login system
 
 Authentication is needed for clients to use the application, as a user and profile are needed to make communicate with developers - the primary purpose of the application. 
 
 - Users only have permissions to use their dedicated parts of the website depending on their permission.
-
 
 #### Dashboards
 
