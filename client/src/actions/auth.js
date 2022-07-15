@@ -21,7 +21,6 @@ import {
 export const loadUser = () => async (dispatch) => {
   try {
     const res = await api.get('/auth');
-
     dispatch({
       type: USER_LOADED,
       payload: res.data
@@ -37,7 +36,6 @@ export const loadUser = () => async (dispatch) => {
 export const register = (formData) => async (dispatch) => {
   try {
     const res = await api.post('/users', formData);
-
     dispatch({
       type: REGISTER_SUCCESS,
       payload: res.data

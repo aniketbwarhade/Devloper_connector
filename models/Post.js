@@ -23,7 +23,6 @@ const PostSchema = new Schema({
                 ref: 'users'
             }
         }
-        
     ],
     comments: [
         {

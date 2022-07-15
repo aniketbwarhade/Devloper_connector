@@ -6,11 +6,11 @@ const jwt = require('jsonwebtoken');
 const {check,validationResult} = require("express-validator");
 const User = require("../../models/User.js")
 const config = require('config');
+
+
 //@route POST api/users 
 // @desc Register User
 // @access Public
-
-
 router.post('/',[
     check("name","Name is required").not().isEmpty(),
     check("email","please enter the valid email").isEmail(),
