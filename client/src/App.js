@@ -16,7 +16,7 @@ import Post from './components/post/Post';
 import NotFound from './components/layout/NotFound';
 import PrivateRoute from './components/routing/PrivateRoute';
 import { LOGOUT } from './actions/types';
-
+import  About from './components/layout/About.js'
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -51,6 +51,7 @@ const App = () => {
           <Route path="/" element={<Landing />} />
           <Route path="register" element={<Register />} />
           <Route path="login" element={<Login />} />
+          <Route path="about" element={<About />} />
           <Route path="profiles" element={<Profiles />} />
           <Route path="profile/:id" element={<Profile />} />
           <Route
